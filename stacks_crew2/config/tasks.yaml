@@ -1,0 +1,23 @@
+research_nfts:
+  description: >
+    Conduct research on the current NFTs available on the Stacks blockchain.
+  expected_output: >
+    The raw research about NFTs.
+
+make_nft_report:
+  description: >
+    Compile the research into a report with recommendations for purchase one to three specific NFTs.
+  expected_output: >
+    A formatted report with clear recommendations for purchasing up to three NFTs.
+
+get_balance:
+  description: >
+    Check the balance of the configured wallet.
+  expected_output: >
+    The current balance in STX of the configured wallet
+
+make_purchase:
+  description: >
+    If the balance allows make a purchase one of the NFTs from the report.
+  expected_output: >
+    returns transaction status of the purchase transaction.
